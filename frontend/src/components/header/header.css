@@ -1,0 +1,14 @@
+.header-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.432);
+
+  position: fixed;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  backdrop-filter: blur(1px);
+  z-index: 9999;
+}

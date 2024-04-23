@@ -1,0 +1,20 @@
+h2 {
+  font-family: "The Bigmaker";
+  font-size: 70px;
+  font-weight: lighter;
+  color: white;
+  letter-spacing: 3px;
+  word-spacing: 0.25px;
+  margin-bottom: -15px;
+}
+h3 {
+  font-family: "Garet-Book";
+  font-size: 8px;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+.Consentimientos_info {
+  font-size: 9px;
+  margin-bottom: -15px;
+}

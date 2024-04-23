@@ -1,0 +1,18 @@
+:root {
+  --primary-black: #333333;
+  --primary-white: #f5f5f5;
+}
+@font-face {
+  font-family: "The bigmaker";
+  src: url("../public/fonts/The\ Bigmaker.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Garet-Book";
+  src: url("../public/fonts/Garet-Book.otf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
