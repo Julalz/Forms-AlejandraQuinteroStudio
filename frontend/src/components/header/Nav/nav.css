@@ -14,3 +14,36 @@ p {
   margin-top: 14px;
   font-size: small;
 }
+
+.popup-overlay {
+  position: absolute;
+  top: 85px;
+  left: 89%;
+  transform: translateX(-69%);
+}
+
+.popup-content {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(24, 20, 20, 0.322);
+  padding: 20px;
+  color: var(--primary-white);
+  /* border-radius: 30px; */
+}
+
+button {
+  position: absolute;
+  top: 1px;
+  width: 15px;
+  height: 15px;
+  left: 109px;
+  font-size: 9px;
+  background-color: transparent;
+  border-color: rgb(234, 241, 241);
+  border-radius: 50px;
+}
+.popup-content li a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
