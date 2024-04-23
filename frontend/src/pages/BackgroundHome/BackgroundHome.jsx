@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
+import { Link, Routes, Route } from "react-router-dom";
 import pestañas1 from "../../../public/images/pestañas3.jpg";
 import trenzas1 from "../../../public/images/trenzas1.jpg";
 import pestañas4 from "../../../public/images/pestañas2.jpeg";
@@ -31,12 +32,24 @@ const BackgroundHome = () => {
 
       <div className="lis-container-home">
         <ul>
-          <li>EXTENSIONES DE PESTAÑAS</li>
-          <li>EXTENSIONES DE PELO NATURAL</li>
-          <li>LIMPIEZAS FACIALES</li>
-          <li>TRENZAS AFRICANAS</li>
-          <li>CORTE DE PELO</li>
-          <li>FORMACIONES</li>
+          <li>
+            <Link to="/extensiones_pestanias">EXTENSIONES DE PESTAÑAS</Link>
+          </li>
+          <li>
+            <Link to="/extensiones_pelo">EXTENSIONES DE PELO NATURAL</Link>
+          </li>
+          <li>
+            <Link to="/limpiezas_faciales">LIMPIEZAS FACIALES</Link>
+          </li>
+          <li>
+            <Link to="/trenzas_africanas">TRENZAS AFRICANAS</Link>
+          </li>
+          <li>
+            <Link to="/microblading">MICROBLADING</Link>
+          </li>
+          <li>
+            <Link to="/formaciones">FORMACIONES</Link>
+          </li>
         </ul>
       </div>
     </div>
