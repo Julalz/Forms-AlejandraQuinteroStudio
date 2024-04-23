@@ -21,12 +21,25 @@ const BackgroundHome = () => {
   const imageUrl = images[currentIndex];
 
   return (
-    <div
-      className="background-container"
-      style={{
-        backgroundImage: `url(${imageUrl})`,
-      }}
-    />
+    <div className="Home-container">
+      <div
+        className="background-container"
+        style={{
+          backgroundImage: `url(${imageUrl})`,
+        }}
+      ></div>
+
+      <div className="lis-container-home">
+        <ul>
+          <li>EXTENSIONES DE PESTAÑAS</li>
+          <li>EXTENSIONES DE PELO NATURAL</li>
+          <li>LIMPIEZAS FACIALES</li>
+          <li>TRENZAS AFRICANAS</li>
+          <li>CORTE DE PELO</li>
+          <li>FORMACIONES</li>
+        </ul>
+      </div>
+    </div>
   );
 };
 

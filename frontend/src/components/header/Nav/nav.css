@@ -1,10 +1,16 @@
 .user-container {
-  margin-top: 17px;
-  width: 30px;
-  height: 30px;
+  display: flex;
+  color: var(--primary-white);
+  font-weight: lighter;
+  width: 90px;
+  height: 60px;
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../../../../public/images/usuario.png");
   overflow: hidden;
+}
+p {
+  margin-top: 14px;
+  font-size: small;
 }
