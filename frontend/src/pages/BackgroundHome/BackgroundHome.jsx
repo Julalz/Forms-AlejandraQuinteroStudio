@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from "react";
-import { Link, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import pestañas1 from "../../../public/images/pestañas3.jpg";
 import trenzas1 from "../../../public/images/trenzas1.jpg";
 import pestañas4 from "../../../public/images/pestañas2.jpeg";

@@ -13,6 +13,10 @@ function NavMenu() {
     setIsPopupOpen(false);
   };
 
+  const closepopuafterclick = () => {
+    closePopup();
+  };
+
   return (
     <>
       <div className="user-container" onClick={openPopup}>
@@ -24,10 +28,14 @@ function NavMenu() {
           <div className="popup-content" onClick={(e) => e.stopPropagation()}>
             <ul>
               <li>
-                <Link to="/join">Registrate</Link>
+                <Link to="/join" onClick={closepopuafterclick}>
+                  Registrate
+                </Link>
               </li>
               <li>
-                <Link to="/signIn">Inicia Sesión</Link>
+                <Link to="/signIn" onClick={closepopuafterclick}>
+                  Inicia Sesión
+                </Link>
               </li>
             </ul>
             <button onClick={closePopup}>X</button>
