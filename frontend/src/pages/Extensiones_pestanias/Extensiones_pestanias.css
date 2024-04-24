@@ -21,13 +21,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
   max-width: 600px;
-  height: 98%;
+  height: 100%;
   backdrop-filter: blur(1px);
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50px;
-  margin: 90px 0px 60px 0px;
+  margin: 120px 0px 70px 0px;
 }
 input {
   width: 60%;
@@ -64,7 +64,7 @@ input::placeholder {
 }
 
 .forms-datos-medicos input {
-  margin-left: 250px;
+  margin-left: 220px;
 }
 
 .checkbox-custom {
@@ -91,7 +91,6 @@ input::placeholder {
 .firma-canvas {
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px dotted #ccc;
-  margin-top: 9px;
   border-radius: 12px;
 }
 
@@ -110,16 +109,10 @@ input::placeholder {
 }
 
 .button {
-  /* background-color: #5f928afb; */
   border: none;
-  /* padding: 20px; */
-  /* margin: 5px; */
   text-align: center;
   font-size: 12px;
   transition: all 0.5s;
   border-radius: 20px;
   position: static;
 }
-/* .button:hover {
-  background-color: #243532;
-} */

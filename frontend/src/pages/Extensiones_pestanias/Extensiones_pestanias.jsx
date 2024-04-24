@@ -2,7 +2,6 @@ import { useState } from "react";
 import DatePicker from "react-datepicker";
 import SignatureCanvas from "react-signature-canvas";
 import Button from "../../components/shared/botones/Button";
-import es from "date-fns/locale/es";
 import "./Extensiones_pestanias.css";
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -13,7 +12,6 @@ function Extensiones_pestanias() {
     <div className="forms_container_pestanias">
       <form className="forms-container">
         <h3>Rellene los espacios máximos posibles</h3>
-        <p>Datos Médicos</p>
         <div className="forms-datos-medicos">
           <label>¿Uso de lentillas?</label>
           <input type="checkbox" className="checkbox-custom"></input>
