@@ -11,7 +11,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .forms-container {
+  position: relative;
   font-family: "Garet-Book";
   font-size: 11px;
   color: var(--primary-black);
@@ -21,13 +23,12 @@
   align-items: center;
   width: 90%;
   max-width: 600px;
-  height: 90%;
+  height: 98%;
   backdrop-filter: blur(1px);
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 50px;
-  margin: 90px 0px 20px 0px;
+  margin: 90px 0px 60px 0px;
 }
-
 input {
   width: 60%;
   margin-bottom: 2px;
@@ -97,3 +98,28 @@ input::placeholder {
 .react-datepicker__navigation--next {
   margin-left: 100px;
 }
+
+.button-container {
+  width: 400px;
+  text-align: center;
+}
+.button-enviar {
+  position: absolute;
+  bottom: 20px;
+  right: 50%;
+}
+
+.button {
+  /* background-color: #5f928afb; */
+  border: none;
+  /* padding: 20px; */
+  /* margin: 5px; */
+  text-align: center;
+  font-size: 12px;
+  transition: all 0.5s;
+  border-radius: 20px;
+  position: static;
+}
+/* .button:hover {
+  background-color: #243532;
+} */

@@ -81,6 +81,10 @@ function Extensiones_pestanias() {
           }}
         />
         <span className="firma-placeholder">Firma aquí</span>
+        <div className="button-container">
+          <Button text={"Enviar"} />
+          <Button text={"Clear"} />
+        </div>
       </form>
     </div>
   );
